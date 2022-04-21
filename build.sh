@@ -1,0 +1,3 @@
+echo Compiling app...
+g++ ./src/main.cpp ./src/filestats.cpp ./src/wildcards.cpp -I ./inc/ -o linecounter
+echo Compilation complete
